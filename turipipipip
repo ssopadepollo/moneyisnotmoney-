@@ -1,6 +1,6 @@
 local player = game.Players.crexjake
      player.Chatted:connect(function(msg)
-      if msg == "!unfreeze" then
+      if msg == "unfreeze" then
 if not player then
 game.Players.LocalPlayer.Character.Head.Anchored = false
 end
